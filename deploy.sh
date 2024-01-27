@@ -10,6 +10,4 @@ docker tag reactimage suryaln/capstonereactimage
 
 docker push suryaln/capstonereactimage
 
-echo "The image has been pushed to DockerHub Registry!!! "
-
-~                                                                                                                                               
+echo "The image has been pushed to DockerHub Registry!!! "                                                                                                                                               
