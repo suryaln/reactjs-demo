@@ -8,6 +8,18 @@ docker tag reactimage suryaln/capstonereactimage
 
 #pushing image to dockerhub registry
 
+
+
+
 docker push suryaln/capstonereactimage
 
 echo "The image has been pushed to DockerHub Registry!!! "                                                                                                                                               
+
+
+
+#docker tag local-image:tagname new-repo:tagname
+#docker push new-repo:tagname
+
+#Replace Tagname with desired image  Proximate
+
+#docker push suryaln/dev:tagname
