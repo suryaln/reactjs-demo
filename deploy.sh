@@ -5,7 +5,7 @@ docker-compose up -d
 
 #stagging the image to docker hub registry
             #docker tag reactimage suryaln/capstonereactimage
-
+ 
 #pushing image to dockerhub registry
 
 docker tag reactimage suryaln/prod 
