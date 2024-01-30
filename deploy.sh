@@ -3,7 +3,7 @@
 
 docker-compose up -d
 
-#stagging the image to docker hub registry
+#stagging the image to docker hub registry 
 docker tag reactimage suryaln/prod    
 
  # pushing image to prod repo in dockerhub registry
