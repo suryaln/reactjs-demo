@@ -1,4 +1,4 @@
-#!/bin/bash 
+#!/bin/bash    
 #gonna push image  to docker hub repository in this deploy.
 
 docker-compose up -d
