@@ -8,4 +8,4 @@ docker tag reactimage suryaln/prod
  
 docker push suryaln/prod
 
-echo "The image has been pushed to DockerHub Registry!!! "                                                                                                                                               
+echo "The image has been pushed to Prod repository in DockerHub Registry!!! "                                                                                                                                               
