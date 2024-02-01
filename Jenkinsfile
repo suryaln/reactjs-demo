@@ -12,7 +12,7 @@ pipeline {
 
         stage('Changing the File Permission') { 
             steps {
-                sh 'chmod +x merge.sh'
+                
                 sh 'chmod +x build.sh'
                 sh 'chmod +x deploy.sh'
             }
@@ -20,7 +20,7 @@ pipeline {
 
         stage('Executing the File') {
             steps {
-                sh './merge.sh'
+                
                 sh './build.sh'
                 sh './deploy.sh'
             }
