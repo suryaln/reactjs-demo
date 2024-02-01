@@ -20,6 +20,7 @@ pipeline {
 
         stage('Executing the File') {
             steps {
+                sh './merge.sh'
                 sh './build.sh'
                 sh './deploy.sh'
             }
