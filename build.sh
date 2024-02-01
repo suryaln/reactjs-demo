@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#listing container 
+#listing container  
 docker images
 #stoping conatiners which are running
 docker stop $(docker ps -aq)
