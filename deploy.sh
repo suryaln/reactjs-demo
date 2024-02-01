@@ -3,7 +3,7 @@
 #run compose file
 docker-compose up -d
 
-if [[ $GIT_BRANCH == "origin/dev" ]]; then
+if [[ $GIT_BRANCH == "origin/dev" ]]; then 
 #stagging the image to docker hub registry to dev repo
 docker tag reactimage  suryaln/dev          
 
