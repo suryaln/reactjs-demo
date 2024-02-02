@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react-deployment
+  labels:
+    app: react-d
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: react-pod
+  template:
+    metadata:
+      labels:
+        app: react-pod
+    spec:
+      containers:
+      - name: reactcontainerfromcluster
+        image: suryaln/capstonereactimage:latest
+        ports:
+        - containerPort: 80
+
