@@ -9,7 +9,7 @@ COPY . .
 RUN npm install
 #Builing the application
 RUN npm run build
-
+#new repo
 #Stage 2
 #second stage base image
 FROM nginx:alpine
