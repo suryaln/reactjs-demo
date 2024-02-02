@@ -5,12 +5,13 @@ docker-compose up -d
 
 if [[ $GIT_BRANCH == "origin/dev" ]]; then 
 #stagging the image to docker hub registry to dev repo
-docker tag reactimage  suryaln/dev          
+docker tag reactimage suryaln/dev          
 
 #pushing image to dockerhub registry 
 docker push suryaln/dev
 
-echo "The Image has been pushed to Dev Repository in DockerHub Registry!!! "     
+echo "The Image has been pushed to Dev Repository in DockerHub Registry!!! "  
+
 elif [[ $GIT_BRANCH == "origin/master" ]]; then
 #stagging the image to docker hub registry to dev repo
 docker tag reactimage suryaln/prod
