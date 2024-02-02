@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: react-pod
+  labels: 
+    app: reactlabel
+spec:
+  containers:
+  - name: containerimagefromdevrepo
+    image: suryaln/capstonereactimage:latest
+    ports:
+    - containerPort: 80
