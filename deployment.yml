@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: react-deployment
   labels:
-    app: react-d
+    app: react-pod
 spec:
   replicas: 1
   selector:
