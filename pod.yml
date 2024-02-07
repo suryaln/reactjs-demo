@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: react-pod
+  name: reactapp
   labels: 
-    app: reactlabel
+    app: react-pod
 spec:
   containers:
   - name: containerimagefromdevrepo
